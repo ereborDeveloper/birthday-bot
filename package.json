@@ -1,0 +1,13 @@
+{
+  "name": "birthday-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/bot.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "grammy": "^1.46.0"
+  }
+}
